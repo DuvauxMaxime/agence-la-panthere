@@ -716,6 +716,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight: 600;
 }
 
 h3 {
@@ -786,6 +787,7 @@ h4 {
 
 .tc-white {
     color: #ffffff !important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
