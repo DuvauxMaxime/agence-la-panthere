@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -746,8 +746,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #000000 !important;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .portfolio-thumb {
@@ -778,11 +779,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #F3976C;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #194671;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -790,15 +791,20 @@ h4 {
     position: relative;
 }
 
+.tc-black {
+    color: #000000 !important;
+    position: relative;
+    font-weight: 600;
+}
+
 .btn-atomic-tangerine {
-    background: #194671;
-    color: #FFFFFF !important;
+    background: #F3976C;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ffffff !important;
-    color: #194671 !important;
-    border: 1px solid #194671;
+    background: #f3b193 !important;
+    color: #000000 !important;
 }
 
 .ltc-white {
@@ -863,13 +869,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
