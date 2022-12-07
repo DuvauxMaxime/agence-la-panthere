@@ -11,6 +11,7 @@ a,
 button {
     transition: all .3s ease-in-out;
 
+
 }
 
 a:hover {
@@ -70,6 +71,14 @@ a:hover {
     -moz-background-size: auto !important;
     -o-background-size: auto !important;
     background-size: auto !important;
+}
+
+.navbar-toggle:focus {
+    outline: 2px solid black !important
+}
+
+.carousel-control:hover {
+    outline: 2px solid black !important
 }
 
 .bg-repeat {
@@ -665,6 +674,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+
 }
 
 .hero-bloc-text-sub {
@@ -775,7 +785,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #F3976C;
+    background-color: black;
 }
 
 .bgc-atomic-tangerine {
